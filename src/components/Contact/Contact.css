@@ -1,0 +1,7 @@
+.backgorund-contact{
+    display: flex;
+    flex-direction: row;
+    background-color: #242424;
+    height: 50vh;
+}
+

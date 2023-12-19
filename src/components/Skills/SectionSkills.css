@@ -1,0 +1,17 @@
+.backgorund-skills{
+    display: flex;
+    flex-direction: row;
+    background-color: #242424;
+    height: 50vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    color: #fff;
+    text-align: left;
+    padding: 8px;
+}

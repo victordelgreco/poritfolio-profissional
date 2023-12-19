@@ -1,17 +1,38 @@
 .banner-backgorund{
-    background-image: url(../../img/background.jpg);
-    opacity: 50;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    
-}
-
-.banner-backgorund{
-    background-color:#021b27;
+    display: flex;
+    flex-direction: row;
+    background-color: #151515;
 
 }
 
-.background-image{
+.frase-de-bem-vindo{   color: white;
+    font-size: 3rem;
+    box-shadow: none;
+    width: auto;
+}
 
+.section{
+    width:70%;
+    margin: 12em 0em 0 12em;
+}
+
+.section-image{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    background-color: #242424;
+    margin-right: 3vw;
+    height: 49.7vh;
+    padding: 50px;
+}
+
+img.image-perfil {
+    margin-right: 5%;
+    margin-top: 9%;
+    width: 25%;
+    height: 25%;
+}
+
+.description-victor{
+    color: #fff;
 }
