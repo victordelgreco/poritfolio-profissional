@@ -1,7 +1,42 @@
-.backgorund-contact{
+.background-contact{
     display: flex;
     flex-direction: row;
-    background-color: #242424;
+    color: #fff;
+    background-color: #242424 !important;
     height: 50vh;
 }
 
+form{
+    background-color: #242424 !important;
+
+}
+
+.primeira-coluna-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+}
+
+.segunda-coluna-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+
+.phrase-contact {
+    font-weight: 400;
+    margin: 0px 315px 0 164px;
+}
+
+input[type="text"] {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    width: 50%;
+}
