@@ -38,5 +38,11 @@ input[type="text"] {
     background-color: transparent;
     outline: none;
     color: white;
-    width: 50%;
+}
+
+.form-envio {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 40px;
 }

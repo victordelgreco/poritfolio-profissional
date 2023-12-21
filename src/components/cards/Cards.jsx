@@ -1,6 +1,6 @@
 import './Cards.css'
 import Card from 'react-bootstrap/Card';
-import ButtonContactMe from '../Button/ButtonContateMe/ButtonContateMe'
+import ButtonDetails from '../Button/ButtonDetails/ButtonDetails'
 
 const dadosCard = [
     {
@@ -38,7 +38,7 @@ export default function CardsList({}) {
         <Card.Body>
           <Card.Title>{getDadosCard.title}</Card.Title>
           <Card.Text>{getDadosCard.linguages.map(lenguage =>(lenguage))}</Card.Text>
-          <ButtonContactMe/>
+          <ButtonDetails/>
         </Card.Body>
       </Card>
 
