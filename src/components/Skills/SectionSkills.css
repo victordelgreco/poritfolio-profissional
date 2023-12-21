@@ -32,6 +32,12 @@ th, td {
     padding: 8px;
 }
 
+tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 p{
     font-weight: 400;
 }

@@ -1,35 +1,49 @@
 import './Cards.css'
+import Card from 'react-bootstrap/Card';
+import ButtonContactMe from '../Button/ButtonContateMe/ButtonContateMe'
 
 const dadosCard = [
     {
         title:'Site CP DESIGN',
-        linguage:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
+        linguages:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
     },
     {
         title:'Lumilandia',
-        linguage:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
+        linguages:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
     },
     {
         title:'VegaWood',
-        linguage:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
+        linguages:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
     },
     {
         title:'Calculadora',
-        linguage:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
+        linguages:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
     },
     {
         title:'Api Rick and Morty',
-        linguage:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
+        linguages:['WORDPRESS','HTML','CSS','JAVA SCRIPTS']
     }
 ]
 
 
 
 
-export default function Cards() {
-    return(
-        <>
-        </>
+export default function CardsList({}) {
+    let getDadosCards = dadosCard
+    return (
 
-    )
-}
+        getDadosCards.map(getDadosCard =>(
+<Card style={{ width: '18rem', backgroundColor: 'transparent', boxShadow:'none', color:'#fff'}}>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Body>
+          <Card.Title>{getDadosCard.title}</Card.Title>
+          <Card.Text>{getDadosCard.linguages.map(lenguage =>(lenguage))}</Card.Text>
+          <ButtonContactMe/>
+        </Card.Body>
+      </Card>
+
+        ))
+      
+    );
+  }
+  

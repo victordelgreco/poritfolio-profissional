@@ -4,6 +4,7 @@ import Banner from './components/Banner/Banner'
 import SectionSkills from './components/Skills/SectionSkills'
 import Projects from './components/Projects/Projects'
 import Contact   from './components/Contact/Contact'
+
 function App() {
 
   return (

@@ -1,4 +1,4 @@
-import '../Button/Button.css';
+import '../ButtonContateMe/ButtonContateMe.css';
 
 export default function ButtonContactMe() {
     return(

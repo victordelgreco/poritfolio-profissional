@@ -1,6 +1,6 @@
-.projet-backgorund{
+.project-backgorund{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #151515;
     height: 50vh;
     color: #fff;
@@ -8,5 +8,16 @@
 
 .subTitleProjects{
     font-size: 5rem;
-    margin: 1em 0em 0 2em;
+    margin: 0em 0em 0 2em;
 }
+
+.colum-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border: transparent !important;
+}
+

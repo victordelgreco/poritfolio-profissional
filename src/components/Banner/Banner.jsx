@@ -1,6 +1,6 @@
 import '../Banner/Banner.css'
 import PhotoPerfil from '../../img/victor-image.png'
-import ButtonContactMe from '../../components/Button/Button'
+import ButtonContactMe from '../Button/ButtonContateMe/ButtonContateMe'
 
 export default function Banner() {
     return (
