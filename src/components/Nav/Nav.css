@@ -1,17 +1,20 @@
 .bg-body-tertiary{
-    background-color: #6c6c6c14 !important;
+    background-color: #000000 !important;
     position: fixed;
     width: 100vw;
 
 }
 
 .navbar-brand {
-    color: #e4e4e4;
+    color: #ffffff;
 
 }
 
 .nav-icone-social-midia {
-    color: #e4e4e4;
+    color: #ffffff;
     font-size:1.5em;
 }
 
+.navbar-toggler-icon{
+    color: #ffffff;
+}

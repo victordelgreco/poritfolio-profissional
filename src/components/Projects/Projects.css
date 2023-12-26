@@ -21,3 +21,18 @@
     border: transparent !important;
 }
 
+@media(max-width:845px){
+    .subTitleProjects {
+        margin: 0em 0em 0 5%;
+    }
+    .form-envio {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    
+    .project-backgorund {
+    height: 100vh;
+
+    }
+}

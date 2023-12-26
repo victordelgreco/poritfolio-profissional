@@ -36,3 +36,30 @@ img.image-perfil {
 .description-victor{
     color: #fff;
 }
+
+@media(max-width:844px){
+    .image-perfil{display: none;}
+
+
+    .section {
+        width: 70%;
+        margin: 0;
+    }
+
+    .bg-body-tertiary {
+        position: static;
+    }
+
+    .banner-backgorund {
+        display: inline-block;
+    }
+
+    .frase-de-bem-vindo {
+        display: inline-block;
+        color: white;
+        width: 100vw;
+    }
+}
+
+
+

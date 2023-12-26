@@ -46,3 +46,19 @@ input[type="text"] {
     width: 400px;
     margin-bottom: 40px;
 }
+
+
+
+@media(max-width:845px){
+    .phrase-contact {
+        font-weight: 0;
+        margin: 0;
+    }
+
+    .background-contact{
+        display: inline-block;
+        height: 100vh;
+        width: 100vw;
+    }
+
+}

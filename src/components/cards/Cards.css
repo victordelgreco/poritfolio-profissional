@@ -1,0 +1,6 @@
+    .card {
+        width: calc(50% - 10px); /* Para duas colunas com espaçamento */
+        margin-bottom: 20px;
+        background-color: #fff; /* Adapte as cores conforme necessário */
+        /* Outros estilos para os cards */
+    }

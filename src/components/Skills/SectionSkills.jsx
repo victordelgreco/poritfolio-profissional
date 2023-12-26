@@ -9,19 +9,20 @@ export default function SectionSkills() {
             <div className='table-skills'>
                 <table>
                 <tr>
-                    <th>HTML<p>3 Anos de Experiência</p></th>
-                    <th>CSS<p>3 Anos de Experiência</p></th>
-                    <th>JAVA SCRIPT<p>3 Anos de Experiência</p></th>
-                    <th>BOOTSTRAP<p>6 Meses de Experiência</p></th>
+                    <th><h4>HTML</h4><p>3 Anos de Experiência</p></th>
+                    <th><h4>CSS</h4><p>3 Anos de Experiência</p></th>
+                    <th><h4>JAVA SCRIPT</h4><p>3 Anos de Experiência</p></th>
+                    <th><h4>BOOTSTRAP</h4><p>6 Meses de Experiência</p></th>
                 </tr>
                 <tr>
-                    <th>REACT<p>6 Meses de Experiência</p></th>
-                    <th>REACT NATIVE<p>6 Meses de Experiência</p></th>
-                    <th>NODE JS<p>6 Meses de Experiência</p></th>
-                    <th>EXPRESS<p>6 Meses de Experiência</p></th>
+                    <th><h4>REACT</h4><p>6 Meses de Experiência</p></th>
+                    <th><h4>REACT NATIVE</h4><p>6 Meses de Experiência</p></th>
+                    <th><h4>NODE JS</h4><p>6 Meses de Experiência</p></th>
+                    <th><h4>EXPRESS</h4><p>6 Meses de Experiência</p></th>
                 </tr>
             </table>
             </div>
         </div>
     )
 }
+
