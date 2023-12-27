@@ -6,8 +6,11 @@ import Titles from '../Titles/TitleSection'
 function Contact() {
     return (
         <div className='background-contact'>
+                            <Titles
+                title='Contact'
+                />
             <div className='primeira-coluna-contact'>
-                <Titles title='Contact'/>
+
                 <p className='phrase-contact'>I would love to hear about your project and how i could help. Please fill in the form, and i'll get back to you as soon as possible.</p>
             </div>
             <div className='segunda-coluna-contact'>
@@ -21,7 +24,7 @@ function Contact() {
                 </div>
                 <div className='form-envio'>
                     <label>Texto</label>
-                    <input type="text" />
+                    <textarea className='' type="text" />
                 </div>
                 </div>
             </div>

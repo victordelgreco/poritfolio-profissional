@@ -4,6 +4,12 @@
         background-color: #fff; /* Adapte as cores conforme necessário */
         /* Outros estilos para os cards */
     }
+
+    .linguages-section{
+        display: inline-block;
+        margin-right:6px;
+        font-size: 1em;
+    }
     
 
 

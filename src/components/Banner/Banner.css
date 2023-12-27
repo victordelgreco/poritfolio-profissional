@@ -1,7 +1,8 @@
 .banner-backgorund{
     display: flex;
     flex-direction: row;
-    background-color: #151515;
+    background-color: #151515; 
+    
 
 }
 
@@ -12,7 +13,7 @@
 }
 
 .section{
-    width:70%;
+    width:auto;
     margin: 12em 0em 0 12em;
 }
 

@@ -24,7 +24,6 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50vw;
 }
 
 .segunda-coluna-contact{
@@ -33,11 +32,13 @@ form{
     align-items: center;
     justify-content: center;
     width: 50vw;
+    padding: 40px;
 }
 
 .phrase-contact {
     font-weight: 400;
-    margin: 0px 315px 0 164px;
+    margin: 0px 200px 0 200px;
+    text-align: justify;
 }
 
 input[type="text"] {
@@ -47,6 +48,16 @@ input[type="text"] {
     background-color: transparent;
     outline: none;
     color: white;
+}
+
+textarea{
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+
 }
 
 .form-envio {
