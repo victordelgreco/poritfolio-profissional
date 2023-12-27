@@ -1,0 +1,16 @@
+.TitleSection{
+    display: flex;
+    color: #fff;
+    font-size: 5rem;
+    margin: 0em 0em 0 5%;
+}
+
+@media(max-width:845px){
+
+    .TitleSection{
+        display: inline-block;
+        height: auto;
+        font-size: 2.5rem;
+    }
+
+}

@@ -1,15 +1,18 @@
 import '../Projects/Projects.css'
 import CardsList from '../cards/Cards'
+import Titles from '../Titles/TitleSection'
 
 export default function Projects() {
-    return(
+    return (
         <div className='project-backgorund'>
             <div>
-            <h2 className='subTitleProjects'>Projects</h2>
+                <Titles
+                    title='Projects' />
             </div>
             <div className='colum-cards'>
-            <CardsList/>    
+                <CardsList />
             </div>
         </div>
-    
-    )}
+
+    )
+}

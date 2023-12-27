@@ -1,5 +1,5 @@
 import '../Contact/Contact.css'
-
+import Titles from '../Titles/TitleSection'
 
 
 
@@ -7,7 +7,7 @@ function Contact() {
     return (
         <div className='background-contact'>
             <div className='primeira-coluna-contact'>
-                <h2 className='subTitleSkills' >Contact</h2>
+                <Titles title='Contact'/>
                 <p className='phrase-contact'>I would love to hear about your project and how i could help. Please fill in the form, and i'll get back to you as soon as possible.</p>
             </div>
             <div className='segunda-coluna-contact'>

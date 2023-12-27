@@ -4,3 +4,17 @@
         background-color: #fff; /* Adapte as cores conforme necessário */
         /* Outros estilos para os cards */
     }
+    
+
+
+    @media(max-width:845px){
+        .colum-cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .project-backgorund {
+            height: auto;
+        }
+    }

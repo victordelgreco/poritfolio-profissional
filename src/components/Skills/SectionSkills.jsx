@@ -1,11 +1,13 @@
 import './SectionSkills.css'
+import Titles from '../Titles/TitleSection'
 
 export default function SectionSkills() {
     return (
         <div className='backgorund-skills' >
             
-            <h2 className='subTitleSkills'>Skills</h2>
-            
+            <Titles 
+            title='Skills'
+            />
             <div className='table-skills'>
                 <table>
                 <tr>
