@@ -87,4 +87,9 @@ textarea{
  width: auto;   
 }
 
+textarea, input{
+    width: 80vw;
+
+}
+
 }

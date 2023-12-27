@@ -45,4 +45,11 @@ p{
     .subTitleSkills {
         margin: 0em 0em 0 5%;
     }
+
+    tr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-around;
+    }
 }

@@ -43,7 +43,6 @@ img.image-perfil {
 
 
     .section {
-        width: 70%;
         margin: 0;
     }
 
@@ -64,9 +63,9 @@ img.image-perfil {
     }
     .description-victor{
         display: inline-block;
+        margin: 0px 10vw;
         color: #fff;
-        text-align: justify;
-        width: 100vw;
+        text-align: center;
     }
 }
 
