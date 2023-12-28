@@ -91,5 +91,10 @@ textarea, input{
     width: 80vw;
 
 }
+textarea{
+    height: 20vh;
+}
+
+
 
 }

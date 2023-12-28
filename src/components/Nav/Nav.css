@@ -10,11 +10,19 @@
 
 }
 
+.navbar-brand:hover {
+    color: #51e3a4;
+}
+
 .nav-icone-social-midia {
     color: #ffffff;
     font-size:1.5em;
 }
 
+.nav-icone-social-midia:hover{
+    color: #51e3a4;
+}
 .navbar-toggler-icon{
     color: #ffffff;
 }
+

@@ -3,3 +3,15 @@
     border-bottom: 2px solid #51e3a4;
     color: #ffffff;
 }
+
+
+
+
+@media(max-width:844px){
+    .div-button-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+}

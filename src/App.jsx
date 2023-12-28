@@ -1,21 +1,17 @@
-import NavMenu from './components/Nav/Nav'
 import './index.css'
-import Banner from './components/Banner/Banner'
-import SectionSkills from './components/Skills/SectionSkills'
-import Projects from './components/Projects/Projects'
-import Contact   from './components/Contact/Contact'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/home/Home'
+import MyProjects from './pages/MyProjects/MyProjects'
 
 function App() {
 
   return (
-
-    <>      
-      <NavMenu />
-      <Banner />
-      <SectionSkills />
-      <Projects />
-      <Contact />
-    </>
+    <BrowserRouter>
+      <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path="myprojects" element={<MyProjects />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

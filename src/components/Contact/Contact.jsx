@@ -1,14 +1,14 @@
 import '../Contact/Contact.css'
 import Titles from '../Titles/TitleSection'
-
+import ButtonSubmit from '../Button/ButtonSubmit/ButtonSubmit';
 
 
 function Contact() {
     return (
         <div className='background-contact'>
-                            <Titles
+            <Titles
                 title='Contact'
-                />
+            />
             <div className='primeira-coluna-contact'>
 
                 <p className='phrase-contact'>I would love to hear about your project and how i could help. Please fill in the form, and i'll get back to you as soon as possible.</p>
@@ -26,9 +26,10 @@ function Contact() {
                     <label>Texto</label>
                     <textarea className='' type="text" />
                 </div>
-                </div>
+            <ButtonSubmit/>
             </div>
-            );
+        </div>
+    );
 }
 
-            export default Contact;
+export default Contact;
