@@ -1,10 +1,10 @@
 import './Card.css'
-import CardsList from '../cards/Cards'
+import React from 'react';
 
-export default function Card({children}) {
+export default function Card(props) {
     return(
         <>
-        {children}
+        {props.children}
         </>
 
     )
